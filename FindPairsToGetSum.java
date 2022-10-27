@@ -6,9 +6,9 @@ import java.util.Map;
 public class FindPairsToGetSum {
 
 	/**
-	 * Checking whether (target-indexValue) present in the map If NOT exists, adding
-	 * indexValue in map with some random value (i) if exists,
-	 * map.get((target-indexValue) and indexValue will be the pair(printing it)
+	 * Checking whether (target-indexValue) present in the map 
+	 * If NOT exists, adding indexValue as key and index as value in map.
+	 * if exists, map.get(target-indexValue) and indexValue will be the pair(printing it)
 	 * 
 	 * @param nums
 	 * @param target
